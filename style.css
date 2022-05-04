@@ -115,12 +115,12 @@ ul li:hover {
     flex: 1 1 50%;
     
 }
-.objectButtons {
-    /* flex: 1 1 100%; */
+/* .objectButtons {
+    flex: 1 1 100%; 
 }
-.petButtonsRIP {
-    /* flex: 1 1 100%; */
-}
+/* .petButtonsRIP {
+    flex: 1 1 100%;
+}  */
 #buttonRevivePet{
     display: none;
 }
