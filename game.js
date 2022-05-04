@@ -5,6 +5,7 @@ const buttonFeed = document.getElementById("buttonFeed");
 const buttonWater = document.getElementById("buttonWater");
 const buttonWalk = document.getElementById("buttonWalk");
 const buttonKillPet = document.getElementById("buttonKillPet");
+const audio1 = new Audio("cartoon-kitty-begging-meow.wav");
 //get progress bars by ID//
 const objectLvlPlay = document.getElementById("objectLvlPlay");
 const objectLvlHunger = document.getElementById("objectLvlHunger");
@@ -20,18 +21,23 @@ document.getElementById("petIcon").src="cyberPetCatNeutral.png";
 //Interacting with Pet//
 buttonPlayWith.addEventListener("click", ()=>{ //increases value of play level when clicked//
     objectLvlPlay.value+=20;
+    if (document.getElementById(audio1.play()
 })
 buttonPlayWith.addEventListener("mousedown", ()=>{ //makes cat happy when interacted with//
     petIcon.src="cyberPetCatHappy.png";
+    audio1.play()
 })
 buttonPlayWith.addEventListener("mouseup", ()=>{ //returns cat to neutral state on mouse release//
     petIcon.src="cyberPetCatNeutral.png";
+    audio1.play()
 })
 buttonFeed.addEventListener("click", ()=>{ //increases value of hunger level when clicked//
     objectLvlHunger.value+=20;
+    audio1.play()
 })
 buttonFeed.addEventListener("mousedown", ()=>{
     petIcon.src="cyberPetCatHappy.png";
+    audio1.play()
 })
 buttonFeed.addEventListener("mouseup", ()=>{
     petIcon.src="cyberPetCatNeutral.png";
