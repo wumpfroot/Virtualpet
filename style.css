@@ -8,7 +8,7 @@
 /*Need to include a LIGHT and DARK theme*/
 
 body {
-    background: linear-gradient(to right, #243a3b, #2f386e);
+    background: linear-gradient(to right, #a3dadd, #2f386e);
     width: 100vw;
     height: 100%;
     padding: 0;
