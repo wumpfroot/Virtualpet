@@ -8,7 +8,7 @@
 /*Need to include a LIGHT and DARK theme*/
 
 body {
-    background: linear-gradient(to right, #243a3b, #2f386e);
+    background: linear-gradient(to right, #c39228 30%, #8d62b8);
     width: 100vw;
     height: 100%;
     padding: 0;
@@ -115,12 +115,12 @@ ul li:hover {
     flex: 1 1 50%;
     
 }
-/* .objectButtons {
+.objectButtons {
     flex: 1 1 100%; 
 }
-/* .petButtonsRIP {
+.petButtonsRIP {
     flex: 1 1 100%;
-}  */
+}
 #buttonRevivePet{
     display: none;
 }
